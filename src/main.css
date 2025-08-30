@@ -1,0 +1,4 @@
+:root{--accent:#111827;--muted:#6b7280}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;background:#fff;color:#0f172a}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}

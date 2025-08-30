@@ -1,0 +1,37 @@
+.heroWrap {
+  position: relative;
+  height: 75vh;
+  min-height: 480px;
+  overflow: hidden;
+}
+.carousel .slide img {
+  height: 75vh;
+  object-fit: cover;
+}
+.content {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+  padding: 0 16px;
+}
+.content h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  margin: 0;
+}
+.content p {
+  margin: 10px 0 20px;
+  opacity: 0.9;
+}
+.cta {
+  background: #25d366;
+  color: #111827;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+}

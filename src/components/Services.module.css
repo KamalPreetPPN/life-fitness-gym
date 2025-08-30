@@ -1,0 +1,144 @@
+/* 
+
+
+
+
+.wrap {
+  padding: 80px 20px;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #111;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Card Wrapper */
+.wrap {
+  padding: 80px 20px;
+  background: #f9f9f9;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #111;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Row of Cards */
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Card Wrapper */
+.card {
+  width: 180px;
+  height: 220px;
+  perspective: 1000px;
+}
+
+/* Inner Flip */
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .inner {
+  transform: rotateY(180deg);
+}
+
+/* Front Side */
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+.front {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.front img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.front h3 {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #111;
+}
+
+/* Back Side */
+.back {
+  background: #111827;
+  color: #fff;
+  transform: rotateY(180deg);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.back h3 {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.back p {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #ddd;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .card {
+    width: 150px;
+    height: 200px;
+  }
+  .front img {
+    height: 130px;
+  }
+}
+
