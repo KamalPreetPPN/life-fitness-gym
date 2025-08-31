@@ -5,17 +5,17 @@
   overflow: hidden;
 }
 .carousel .slide img {
-  height: 75vh;
+  height: 60vh;
   object-fit: cover;
 }
 .content {
   position: absolute;
   inset: 0;
-  display: grid;
   place-items: center;
   color: #fff;
   text-align: center;
   z-index: 2;
+  top: 200px;
   padding: 0 16px;
 }
 .content h1 {
@@ -24,14 +24,58 @@
   margin: 0;
 }
 .content p {
-  margin: 10px 0 20px;
+  margin: 10px 0 100px;
   opacity: 0.9;
 }
 .cta {
   background: #25d366;
   color: #111827;
+  margin-top: 50px;
   padding: 12px 18px;
   border-radius: 999px;
   font-weight: 800;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .cta{
+    display:none
+  }
+  .carousel .slide img {
+  height: 50vh;
+  object-fit: cover;
+}
+.heroWrap {
+  position: relative;
+  min-height: 30vh;
+  height: 25vh;
+  overflow: hidden;
+}
+.content {
+  height: 100px;
+  top:100px;
+
+}
+}
+
+
+@media (max-width: 360px) {
+  .cta{
+    display:none
+  }
+  .carousel .slide img {
+  height: 50vh;
+  object-fit: cover;
+}
+.heroWrap {
+  position: relative;
+  min-height: 30vh;
+  height: 30vh;
+  overflow: hidden;
+}
+.content {
+  height: 100px;
+  top:100px;
+
+}
 }

@@ -15,21 +15,21 @@ export default function Hero({ whatsappLink }) {
         swipeable
       >
         <div>
-          <img src="/images/hero1.jpg" alt="Gym interior - Fitness Life Gym" />
+          <img src="/images/hero1.jpg" alt="Gym interior - Life Fitness Gym" />
         </div>
         <div>
-          <img src="/images/hero2.jpg" alt="Workout area - Fitness Life Gym" />
+          <img src="/images/hero2.jpg" alt="Workout area - Life Fitness Gym" />
         </div>
         <div>
           <img
             src="/images/hero3.jpg"
-            alt="Strength training - Fitness Life Gym"
+            alt="Strength training - Life Fitness Gym"
           />
         </div>
       </Carousel>
 
       <div className={styles.content}>
-        <h1>Fitness Life Gym</h1>
+        <h1>Life Fitness Gym</h1>
         <p>Transform Your Body, Transform Your Life</p>
         <a
           className={styles.cta}

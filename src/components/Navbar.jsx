@@ -33,10 +33,12 @@ export default function Navbar({ whatsappLink }) {
         <div className={styles.brand}>
           <img
             src="/images/icon.png"
-            alt="Fitness Life Gym"
+            alt="Life Fitness Gym"
             className={styles.icon}
+            width="200"
+            heigh="200"
           />
-          <span className={styles.name}>Fitness Life Gym</span>
+          <span className={styles.name}>Life Fitness Gym</span>
         </div>
         <nav className={styles.nav}>
           <Link
@@ -90,7 +92,16 @@ export default function Navbar({ whatsappLink }) {
           target="_blank"
           rel="noreferrer"
         >
+          {" "}
           Contact on WhatsApp
+        </a>
+        <a
+          className={styles.wbutton}
+          href={whatsappLink}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="/images/wicon.png" alt="Google Logo" width="40" />
         </a>
       </div>
     </header>

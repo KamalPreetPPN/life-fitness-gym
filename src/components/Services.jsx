@@ -48,19 +48,29 @@ const list = [
     img: "/images/abs.webp",
   },
   {
-    title: "Cardio",
-    desc: "Aerobics and cardio workouts for stamina.",
-    img: "/images/cardio.png",
+    title: "Gym Workouts",
+    desc: "Full-body strength and conditioning exercises.",
+    img: "/images/gym.webp",
   },
   {
-    title: "Weight Gain",
-    desc: "Hypertrophy and strength training to gain muscle.",
-    img: "/images/weight-gain.png",
+    title: "Core Training",
+    desc: "Workouts to improve balance, stability, and posture.",
+    img: "/images/core.webp",
   },
   {
-    title: "Weight Loss",
-    desc: "Fat-burning sessions and conditioning workouts.",
-    img: "/images/weight-loss.png",
+    title: "Cycling",
+    desc: "Cardio and endurance training on cycles.",
+    img: "/images/spinning.webp",
+  },
+  {
+    title: "Body Tone",
+    desc: "Exercises to tone muscles and enhance physique.",
+    img: "/images/bodytone.webp",
+  },
+  {
+    title: "Cardio Workout",
+    desc: "High-energy workouts to boost stamina and burn calories.",
+    img: "/images/cardio.webp",
   },
 ];
 
@@ -70,22 +80,31 @@ export default function Services() {
       <div className={styles.container}>
         <h2>Our Services</h2>
         <div className={styles.row}>
-          {list.map((s, i) => (
-            <div className={styles.card} key={i}>
-              <div className={styles.inner}>
-                {/* Front Side */}
-                <div className={styles.front}>
-                  <img src={s.img} alt={s.title} className={styles.image} />
-                  <h3>{s.title}</h3>
-                </div>
-                {/* Back Side */}
-                <div className={styles.back}>
+          {list.map(
+            (s, i) => (
+              <div className="kcontainer">
+                <img src={s.img} alt={s.title} className={styles.image} />
+                {/* <div className={styles.back}>
                   <h3>{s.title}</h3>
                   <p>{s.desc}</p>
-                </div>
+                </div> */}
               </div>
-            </div>
-          ))}
+            )
+            // <div className={styles.card} key={i}>
+            //   <div className={styles.inner}>
+            //     {/* Front Side */}
+            //     <div className={styles.front}>
+            //       <img src={s.img} alt={s.title} className={styles.image} />
+            //       {/* <h3>{s.title}</h3> */}
+            //     </div>
+            //     {/* Back Side */}
+            //     <div className={styles.back}>
+            //       <h3>{s.title}</h3>
+            //       <p>{s.desc}</p>
+            //     </div>
+            //   </div>
+            // </div>
+          )}
         </div>
       </div>
     </section>
