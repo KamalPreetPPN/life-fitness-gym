@@ -10,10 +10,15 @@ h2{
   margin-top: 0px;
   margin-bottom: 10px!important;
   text-align: center;
+  color:  #ff6600;
 }
 
 p{
   text-align: center;
+}
+
+strong{
+  color:  #ff6600;
 }
 
 .grid {
@@ -28,6 +33,8 @@ p{
   border-radius: 12px;
   padding: 16px;
   text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 @media (max-width: 900px) {
   .grid {
@@ -45,9 +52,25 @@ h2{
   margin-top: 0px;
   margin-bottom: 0px!important;
   text-align: center;
+  color:  #ff6600;
 }
 
 .wrap {
   padding: 40px 20px;
 }
+}
+
+@media (max-width: 576px) {
+  .wrap {
+  padding: 0px 20px 20px 20px;
+  }
+
+  .container h2{
+    margin-top: 15px!important;
+    margin-bottom: 0px!important;
+    font-size: 1.5rem;
+  }
+  .container p{
+    font-size: 0.7rem;
+  }
 }

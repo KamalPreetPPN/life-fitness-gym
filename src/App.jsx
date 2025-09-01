@@ -7,6 +7,8 @@ import Services from "./components/Services.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import styles from "./App.module.css";
+import WhyChooseUs from "./components/WhyChooseUs.jsx";
+import Gallery from "./components/Gallery.jsx";
 
 export default function App() {
   const whatsapp = "https://wa.me/919056138008";
@@ -20,7 +22,7 @@ export default function App() {
         />
         <meta
           name="keywords"
-          content="Gym in Samana, Fitness Life Gym, Best gym near me, Sahil Sharma fitness"
+          content="Gym in Samana, Life Fitness Gym, Best gym near me, Sahil Sharma fitness"
         />
       </Helmet>
 
@@ -35,8 +37,14 @@ export default function App() {
         <section id="services">
           <Services />
         </section>
+        <section>
+          <WhyChooseUs />
+        </section>
         <section id="contact">
           <Contact whatsappLink={whatsapp} />
+        </section>
+        <section>
+          <Gallery></Gallery>
         </section>
       </main>
       <Footer />

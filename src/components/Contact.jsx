@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Contact.module.css";
-
+import Gallery from "./Gallery";
 export default function Contact({ whatsappLink }) {
   return (
     <section className={styles.wrap}>
       <div className={styles.container}>
-        <h2>Contact Us</h2>
+        <h2 id="kph2">Contact Us</h2>
         <div className={styles.grid}>
           <div className={styles.card}>
             <h3>Address</h3>
@@ -35,6 +35,7 @@ export default function Contact({ whatsappLink }) {
             <p>Samana, Patiala (Punjab)</p>
           </div>
         </div>
+
         <div className={styles.map}>
           <iframe
             title="Gym Location"

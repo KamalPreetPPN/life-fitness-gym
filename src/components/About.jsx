@@ -7,7 +7,7 @@ export default function About() {
       <div className={styles.container}>
         <h2>About Us</h2>
         <p>
-          Welcome to <strong>Fitness Life Gym</strong>, your neighborhood
+          Welcome to <strong>Life Fitness Gym</strong>, your neighborhood
           fitness center in <strong>Samana</strong>, District{" "}
           <strong>Patiala</strong>. Led by trainer <strong>Sahil Sharma</strong>
           , we offer personalized guidance for beginners and athletes alike.

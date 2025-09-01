@@ -29,7 +29,9 @@ export default function Hero({ whatsappLink }) {
       </Carousel>
 
       <div className={styles.content}>
-        <h1>Life Fitness Gym</h1>
+        <h1>
+          Life Fitness <span>Gym</span>
+        </h1>
         <p>Transform Your Body, Transform Your Life</p>
         <a
           className={styles.cta}

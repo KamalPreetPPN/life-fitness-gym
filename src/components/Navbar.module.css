@@ -76,10 +76,10 @@ justify-content: center;}
 } */
 
 .link:hover {
-  color: #ffcc00;
+  color: #ff6600;
 }
 
 .active {
-  color: #ffcc00;
-  border-bottom: 2px solid #ffcc00;
+  color: #ff6600;
+  border-bottom: 2px solid #ff6600;
 }
