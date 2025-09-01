@@ -10,7 +10,7 @@ export default function Navbar({ whatsappLink }) {
           <img
             src="/images/icon.webp"
             alt="Life Fitness Gym"
-            loading="lazy"
+            fetchpriority="high"
             className={styles.icon}
             width="200"
             heigh="200"
@@ -82,7 +82,7 @@ export default function Navbar({ whatsappLink }) {
         >
           <img
             src="/images/wicon.webp"
-            loading="lazy"
+            fetchpriority="high"
             alt="Google Logo"
             width="40"
           />

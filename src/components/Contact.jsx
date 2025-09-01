@@ -40,7 +40,7 @@ export default function Contact({ whatsappLink }) {
           <iframe
             title="Gym Location"
             src="https://www.google.com/maps?q=Samana+Punjab&output=embed"
-            loading="lazy"
+            fetchpriority="high"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>

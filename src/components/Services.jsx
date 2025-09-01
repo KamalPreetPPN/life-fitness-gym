@@ -87,7 +87,7 @@ export default function Services() {
                 <div className={styles.front}>
                   <img
                     src={s.img}
-                    loading="lazy"
+                    fetchpriority="high"
                     alt={s.title}
                     className={styles.image}
                   />

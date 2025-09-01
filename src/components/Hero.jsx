@@ -17,21 +17,21 @@ export default function Hero({ whatsappLink }) {
         <div>
           <img
             src="/images/hero1.webp"
-            loading="lazy"
+            fetchpriority="high"
             alt="Gym interior - Life Fitness Gym"
           />
         </div>
         <div>
           <img
             src="/images/hero2.webp"
-            loading="lazy"
+            fetchpriority="high"
             alt="Workout area - Life Fitness Gym"
           />
         </div>
         <div>
           <img
             src="/images/hero3.webp"
-            loading="lazy"
+            fetchpriority="high"
             alt="Strength training - Life Fitness Gym"
           />
         </div>
