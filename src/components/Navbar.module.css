@@ -29,6 +29,10 @@
 .name {
   font-size: 1.05rem;
 }
+
+.name span{
+  color: #ff6600;
+}
 .nav {
   display: flex;
   gap: 16px;

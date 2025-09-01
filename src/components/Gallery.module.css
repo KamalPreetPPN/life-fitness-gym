@@ -88,3 +88,10 @@
 .nextBtn:hover {
   color: #ff4444;
 }
+
+
+@media (max-width: 768px) { 
+  .wrapper h2{
+    font-size: 1.5rem;
+  }
+}

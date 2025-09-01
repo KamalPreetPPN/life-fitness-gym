@@ -38,7 +38,9 @@ export default function Navbar({ whatsappLink }) {
             width="200"
             heigh="200"
           />
-          <span className={styles.name}>Life Fitness Gym</span>
+          <span className={styles.name}>
+            Life Fitness <span id="name">Gym</span>
+          </span>
         </div>
         <nav className={styles.nav}>
           <Link
