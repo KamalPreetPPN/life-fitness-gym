@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import styles from "./Gallery.module.css"; // CSS module import
 
 const images = [
-  "/images/hero3.jpg",
-  "/images/hero1.jpg",
-  "/images/hero2.jpg",
-  "/images/hero3.jpg",
-  "/images/hero1.jpg",
-  "/images/hero2.jpg",
+  "/images/hero3.webp",
+  "/images/hero1.webp",
+  "/images/hero2.webp",
+  "/images/hero3.webp",
+  "/images/hero1.webp",
+  "/images/hero2.webp",
 ];
 
 function Gallery() {
