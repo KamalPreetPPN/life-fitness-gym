@@ -6,8 +6,6 @@ const images = [
   "/images/hero1.webp",
   "/images/hero2.webp",
   "/images/hero3.webp",
-  "/images/hero1.webp",
-  "/images/hero2.webp",
 ];
 
 function Gallery() {

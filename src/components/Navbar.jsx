@@ -25,11 +25,12 @@ export default function Navbar({ whatsappLink }) {
             smooth={true}
             offset={-80}
             duration={500}
+            href=""
             spy={true}
             activeClass={styles.active}
             className={styles.link}
           >
-            Home
+            <a href="#home">Home</a>
           </Link>
           <Link
             to="about"
@@ -37,32 +38,35 @@ export default function Navbar({ whatsappLink }) {
             offset={-80}
             duration={500}
             spy={true}
+            href=""
             activeClass={styles.active}
             className={styles.link}
           >
-            About
+            <a href="#about">About</a>
           </Link>
           <Link
             to="services"
             smooth={true}
             offset={-80}
             duration={500}
+            href=""
             spy={true}
             activeClass={styles.active}
             className={styles.link}
           >
-            Services
+            <a href="#services">services</a>
           </Link>
           <Link
             to="contact"
             smooth={true}
             offset={-80}
             duration={500}
+            href=""
             spy={true}
             activeClass={styles.active}
             className={styles.link}
           >
-            Contact
+            <a href="#contact">Contact</a>
           </Link>
         </nav>
         <a

@@ -9,6 +9,7 @@ import Footer from "./components/Footer.jsx";
 import styles from "./App.module.css";
 import WhyChooseUs from "./components/WhyChooseUs.jsx";
 import Gallery from "./components/Gallery.jsx";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function App() {
   const whatsapp = "https://wa.me/919056138008";
@@ -54,7 +55,7 @@ export default function App() {
         target="_blank"
         rel="noreferrer"
       >
-        WhatsApp
+        <FaWhatsapp size={40} />
       </a>
     </div>
   );

@@ -15,6 +15,38 @@
   padding: 12px;
 }
 
+/* Common nav links */
+.link a {
+  color: inherit; /* by default inherit */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for nav links */
+.link a:hover {
+  color: orange;
+}
+
+/* WhatsApp button (text button) */
+.cta {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.cta:hover {
+  color: white; /* hover pe white */
+}
+
+/* WhatsApp icon button */
+.wbutton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 0.3s ease;
+}
+
+
 
 .brand {
   display: flex;

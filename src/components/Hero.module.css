@@ -41,6 +41,13 @@
   border-radius: 999px;
   font-weight: 800;
   text-decoration: none;
+  color: black;        /* default text color (maybe black/green/orange) */
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect */
+.cta:hover {
+  color: white;          /* text white on hover */
 }
 
 @media (max-width: 768px) {

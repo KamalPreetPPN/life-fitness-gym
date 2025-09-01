@@ -16,6 +16,7 @@ export default function Footer() {
           <a
             href="https://facebook.com/yourpage"
             target="_blank"
+            aria-label="Facebook"
             rel="noopener noreferrer"
           >
             <FaFacebook />
@@ -23,6 +24,7 @@ export default function Footer() {
           <a
             href="https://www.instagram.com/sahil_fitness8186/"
             target="_blank"
+            aria-label="Instagram"
             rel="noopener noreferrer"
           >
             <FaInstagram />
@@ -30,6 +32,7 @@ export default function Footer() {
           <a
             href="https://twitter.com/yourpage"
             target="_blank"
+            aria-label="Twitter"
             rel="noopener noreferrer"
           >
             <FaTwitter />
@@ -37,6 +40,7 @@ export default function Footer() {
           <a
             href="https://youtube.com/yourpage"
             target="_blank"
+            aria-label="Youtube"
             rel="noopener noreferrer"
           >
             <FaYoutube />
