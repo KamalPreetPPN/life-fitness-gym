@@ -39,6 +39,7 @@ function Gallery() {
             <img
               key={index}
               src={img}
+              loading="lazy"
               alt="gym"
               className={styles.galleryThumb}
               onClick={() => openModal(index)}
@@ -65,6 +66,7 @@ function Gallery() {
           <img
             src={images[currentIndex]}
             alt="zoom"
+            loading="lazy"
             className={styles.modalImg}
             onClick={(e) => e.stopPropagation()}
           />

@@ -15,14 +15,23 @@ export default function Hero({ whatsappLink }) {
         swipeable
       >
         <div>
-          <img src="/images/hero1.webp" alt="Gym interior - Life Fitness Gym" />
+          <img
+            src="/images/hero1.webp"
+            loading="lazy"
+            alt="Gym interior - Life Fitness Gym"
+          />
         </div>
         <div>
-          <img src="/images/hero2.webp" alt="Workout area - Life Fitness Gym" />
+          <img
+            src="/images/hero2.webp"
+            loading="lazy"
+            alt="Workout area - Life Fitness Gym"
+          />
         </div>
         <div>
           <img
             src="/images/hero3.webp"
+            loading="lazy"
             alt="Strength training - Life Fitness Gym"
           />
         </div>

@@ -81,18 +81,16 @@ export default function Services() {
         <h2>Our Services</h2>
         <div className={styles.row}>
           {list.map((s, i) => (
-            // <div className="kcontainer">
-            //   <img src={s.img} alt={s.title} className={styles.image} />
-            //   <div className={styles.back}>
-            //     <h3>{s.title}</h3>
-            //     <p>{s.desc}</p>
-            //   </div>
-            // </div>
             <div className={styles.card} key={i}>
               <div className={styles.inner}>
                 {/* Front Side */}
                 <div className={styles.front}>
-                  <img src={s.img} alt={s.title} className={styles.image} />
+                  <img
+                    src={s.img}
+                    loading="lazy"
+                    alt={s.title}
+                    className={styles.image}
+                  />
                   {/* <h3>{s.title}</h3> */}
                 </div>
                 {/* Back Side */}
