@@ -19,14 +19,14 @@ export default function About() {
           </div>
           <div className={styles.card}>
             <h3>Address</h3>
-            <p>Near Fireman Office, Tehsil Road, Samana</p>
+            <p>Near Sahara Club, Tehsil Road, Samana</p>
           </div>
           <div className={styles.card}>
             <h3>Timings</h3>
             <p>
-              Mon–Sat: 5:00 AM – 10:00 PM
+              Mon–Sat: 5:00 AM – 10:00 AM
               <br />
-              Sun: 7:00 AM – 1:00 PM
+              Mon-Sat: 5:00 PM – 10:00 PM
             </p>
           </div>
           <div className={styles.card}>

@@ -1,9 +1,9 @@
 .wrapper{
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  background-color: rgb(224, 221, 221);
+  background-color: white;
   padding-bottom: 40px;
-  
+  border-top: 2px solid orange;
 }
 
 .wrapper h2{
@@ -93,5 +93,18 @@
 @media (max-width: 768px) { 
   .wrapper h2{
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .galleryGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .galleryThumb {
+    flex: 0 0 200px; /* Fixed width item, similar to minmax(200px, 1fr) */
   }
 }

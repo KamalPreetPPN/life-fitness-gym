@@ -30,7 +30,7 @@
   margin: 0;
 }
 .content p {
-  margin: 10px 0 100px;
+  margin: 10px 0 10px;
   opacity: 0.9;
 }
 .cta {
@@ -50,7 +50,113 @@
   color: white;          /* text white on hover */
 }
 
-@media (max-width: 768px) {
+
+@media (min-width: 280px) {
+  .cta{
+    display:none
+  }
+  .carousel .slide img {
+  height: 50vh;
+  object-fit: cover;
+}
+.heroWrap {
+  position: relative;
+  min-height: 22vh;
+  height: 22vh;
+  overflow: hidden;
+}
+.content {
+  height: 100px;
+  top:45px;
+
+}
+}
+
+@media (min-width: 375px) {
+  .cta{
+    display:none
+  }
+  .carousel .slide img {
+  height: 50vh;
+  object-fit: cover;
+}
+.heroWrap {
+  position: relative;
+  min-height: 27vh;
+  height: 30vh;
+  overflow: hidden;
+}
+.content {
+  height: 100px;
+  top:100px;
+
+}
+}
+
+@media (min-width: 390px) {
+  .cta{
+    display:none
+  }
+  .carousel .slide img {
+  height: 50vh;
+  object-fit: cover;
+}
+.heroWrap {
+  position: relative;
+  min-height: 27vh;
+  height: 27vh;
+  overflow: hidden;
+}
+.content {
+  height: 100px;
+  top:100px;
+
+}
+}
+
+@media (min-width: 414px) {
+  .cta{
+    display:none
+  }
+  .carousel .slide img {
+  height: 50vh;
+  object-fit: cover;
+}
+.heroWrap {
+  position: relative;
+  min-height: 27vh;
+  height: 27vh;
+  overflow: hidden;
+}
+.content {
+  height: 100px;
+  top:100px;
+
+}
+}
+
+@media (min-width: 540px) {
+  .cta{
+    display:block
+  }
+  .carousel .slide img {
+  height: 50vh;
+  object-fit: cover;
+}
+.heroWrap {
+  position: relative;
+  min-height: 42vh;
+  height: 42vh;
+  overflow: hidden;
+}
+.content {
+  height: 100px;
+  top:100px;
+
+}
+}
+
+@media (min-width: 768px) {
   .cta{
     display:none
   }
@@ -73,11 +179,7 @@
 }
 }
 
-
-@media (max-width: 360px) {
-  .cta{
-    display:none
-  }
+@media (min-width: 1024px) {
   .carousel .slide img {
   height: 50vh;
   object-fit: cover;
@@ -85,12 +187,14 @@
 .heroWrap {
   position: relative;
   min-height: 30vh;
-  height: 30vh;
+  height: 25vh;
   overflow: hidden;
 }
 .content {
   height: 100px;
   top:100px;
-
+}
+.content span{
+  color: #ff6600;
 }
 }
