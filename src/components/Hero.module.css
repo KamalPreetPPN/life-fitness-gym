@@ -30,7 +30,7 @@
   margin: 0;
 }
 .content p {
-  margin: 10px 0 10px;
+  margin: 10px 0 100px;
   opacity: 0.9;
 }
 .cta {
@@ -50,113 +50,7 @@
   color: white;          /* text white on hover */
 }
 
-
-@media (min-width: 280px) {
-  .cta{
-    display:none
-  }
-  .carousel .slide img {
-  height: 50vh;
-  object-fit: cover;
-}
-.heroWrap {
-  position: relative;
-  min-height: 22vh;
-  height: 22vh;
-  overflow: hidden;
-}
-.content {
-  height: 100px;
-  top:45px;
-
-}
-}
-
-@media (min-width: 375px) {
-  .cta{
-    display:none
-  }
-  .carousel .slide img {
-  height: 50vh;
-  object-fit: cover;
-}
-.heroWrap {
-  position: relative;
-  min-height: 27vh;
-  height: 30vh;
-  overflow: hidden;
-}
-.content {
-  height: 100px;
-  top:100px;
-
-}
-}
-
-@media (min-width: 390px) {
-  .cta{
-    display:none
-  }
-  .carousel .slide img {
-  height: 50vh;
-  object-fit: cover;
-}
-.heroWrap {
-  position: relative;
-  min-height: 27vh;
-  height: 27vh;
-  overflow: hidden;
-}
-.content {
-  height: 100px;
-  top:100px;
-
-}
-}
-
-@media (min-width: 414px) {
-  .cta{
-    display:none
-  }
-  .carousel .slide img {
-  height: 50vh;
-  object-fit: cover;
-}
-.heroWrap {
-  position: relative;
-  min-height: 27vh;
-  height: 27vh;
-  overflow: hidden;
-}
-.content {
-  height: 100px;
-  top:100px;
-
-}
-}
-
-@media (min-width: 540px) {
-  .cta{
-    display:block
-  }
-  .carousel .slide img {
-  height: 50vh;
-  object-fit: cover;
-}
-.heroWrap {
-  position: relative;
-  min-height: 42vh;
-  height: 42vh;
-  overflow: hidden;
-}
-.content {
-  height: 100px;
-  top:100px;
-
-}
-}
-
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .cta{
     display:none
   }
@@ -179,9 +73,10 @@
 }
 }
 
-@media (min-width: 1024px) and (max-width:2000px) {
+
+@media (max-width: 360px) {
   .cta{
-    display: block;
+    display:none
   }
   .carousel .slide img {
   height: 50vh;
@@ -189,15 +84,13 @@
 }
 .heroWrap {
   position: relative;
-  min-height: 70vh;
-  height: 70vh;
+  min-height: 30vh;
+  height: 30vh;
   overflow: hidden;
 }
 .content {
   height: 100px;
-  top:200px;
-}
-.content span{
-  color: #ff6600;
+  top:100px;
+
 }
 }
