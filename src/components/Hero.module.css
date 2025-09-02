@@ -179,20 +179,23 @@
 }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width:2000px) {
+  .cta{
+    display: block;
+  }
   .carousel .slide img {
   height: 50vh;
   object-fit: cover;
 }
 .heroWrap {
   position: relative;
-  min-height: 30vh;
-  height: 25vh;
+  min-height: 70vh;
+  height: 70vh;
   overflow: hidden;
 }
 .content {
   height: 100px;
-  top:100px;
+  top:200px;
 }
 .content span{
   color: #ff6600;
