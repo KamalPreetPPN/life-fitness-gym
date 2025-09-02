@@ -9,7 +9,7 @@
   object-fit: cover;
 }
 .heroWrap img{
-  filter: blur(4px) brightness(0.8) contrast(1.2);
+  filter: blur(3px) brightness(0.5) contrast(1);
 }
 .content span{
   color: #ff6600;
@@ -22,7 +22,7 @@
   text-align: center;
   z-index: 2;
   top: 200px;
-  padding: 0 16px;
+  /* padding: 0 16px; */
 }
 .content h1 {
   font-size: clamp(2rem, 4vw, 3rem);
