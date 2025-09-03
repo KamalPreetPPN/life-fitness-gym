@@ -8,9 +8,9 @@
   height: 60vh;
   object-fit: cover;
 }
-.heroWrap img{
-  /* filter: blur(3px) brightness(0.5) contrast(1); */
-}
+/* .heroWrap img{
+  filter: blur(3px) brightness(0.5) contrast(1);
+} */
 .content span{
   color: #ff6600;
 }

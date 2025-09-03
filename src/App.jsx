@@ -9,6 +9,7 @@ import Footer from "./components/Footer.jsx";
 import styles from "./App.module.css";
 import WhyChooseUs from "./components/WhyChooseUs.jsx";
 import Gallery from "./components/Gallery.jsx";
+import Team from "./components/Team.jsx";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function App() {
@@ -38,7 +39,10 @@ export default function App() {
         <section id="services">
           <Services />
         </section>
-        <section>
+        <section id="Team">
+          <Team></Team>
+        </section>
+        <section id="Why-Choose-Us">
           <WhyChooseUs />
         </section>
         <section id="contact">

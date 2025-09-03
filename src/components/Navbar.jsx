@@ -56,6 +56,18 @@ export default function Navbar({ whatsappLink }) {
           >
             <a href="#services">services</a>
           </Link>
+          {/* <Link
+            to="Blogs"
+            smooth={true}
+            offset={-80}
+            duration={500}
+            href=""
+            spy={true}
+            activeClass={styles.active}
+            className={styles.link}
+          >
+            Blogs
+          </Link> */}
           <Link
             to="contact"
             smooth={true}
