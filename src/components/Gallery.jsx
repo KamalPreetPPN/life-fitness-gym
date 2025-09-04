@@ -2,10 +2,30 @@ import React, { useState } from "react";
 import styles from "./Gallery.module.css"; // CSS module import
 
 const images = [
-  "/images/hero3.webp",
-  "/images/hero1.webp",
-  "/images/hero2.webp",
-  "/images/hero3.webp",
+  {
+    src: "/images/equipment1.webp",
+    alt: "Sahil Sharma doing dumbbell training at Best Gym in Samana - Life Fitness Gym",
+  },
+  {
+    src: "/images/equipment2.webp",
+    alt: "Personal treadmill training by Sahil Sharma at Life Fitness Gym, the Best Gym in Samana",
+  },
+  {
+    src: "/images/equipment3.webp",
+    alt: "Modern strength training machines available at Life Fitness Gym - Best Gym in Samana",
+  },
+  {
+    src: "/images/equipment4.webp",
+    alt: "Sahil Sharma demonstrating barbell workout at Life Fitness Gym Samana, Best Gym for strength training",
+  },
+  {
+    src: "/images/equipment5.webp",
+    alt: "Cardio and fitness equipment at Life Fitness Gym Samana - Best Gym for fitness in Samana",
+  },
+  {
+    src: "/images/equipment6.webp",
+    alt: "Sahil Sharma guiding functional training session at Life Fitness Gym, the Best Gym in Samana",
+  },
 ];
 
 function Gallery() {
@@ -31,14 +51,14 @@ function Gallery() {
     <div>
       {/* Grid Images */}
       <div className={styles.wrapper}>
-        <h2> Train With Us – Gallery</h2>
+        <h2>Best Gym in Samana - Life Fitness Gym</h2>
         <div className={styles.galleryGrid}>
           {images.map((img, index) => (
             <img
               key={index}
-              src={img}
+              src={img.src}
               fetchpriority="high"
-              alt="gym"
+              alt={img.alt}
               className={styles.galleryThumb}
               onClick={() => openModal(index)}
             />
@@ -62,8 +82,8 @@ function Gallery() {
             ❮
           </span>
           <img
-            src={images[currentIndex]}
-            alt="zoom"
+            src={images[currentIndex].src}
+            alt={images[currentIndex].alt}
             fetchpriority="high"
             className={styles.modalImg}
             onClick={(e) => e.stopPropagation()}

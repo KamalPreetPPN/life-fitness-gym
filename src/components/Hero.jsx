@@ -3,6 +3,21 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "./Hero.module.css";
 
+const heroSlides = [
+  {
+    img: "/images/hero1.webp",
+    alt: "Life Fitness Gym Samana - India's Best Gym with Modern Equipment",
+  },
+  {
+    img: "/images/hero2.webp",
+    alt: "Certified Gym Trainer at Life Fitness Gym Samana - Personal Training & Cardio",
+  },
+  {
+    img: "/images/hero3.webp",
+    alt: "Strength Training and Weightlifting at Life Fitness Gym Samana Punjab",
+  },
+];
+
 export default function Hero({ whatsappLink }) {
   return (
     <div className={styles.heroWrap}>
@@ -14,27 +29,16 @@ export default function Hero({ whatsappLink }) {
         interval={3500}
         swipeable
       >
-        <div>
-          <img
-            src="/images/hero1.webp"
-            // fetchpriority="high"
-            alt="Gym interior - Life Fitness Gym"
-          />
-        </div>
-        <div>
-          <img
-            src="/images/hero2.webp"
-            // fetchpriority="high"
-            alt="Workout area - Life Fitness Gym"
-          />
-        </div>
-        <div>
-          <img
-            src="/images/hero3.webp"
-            // fetchpriority="high"
-            alt="Strength training - Life Fitness Gym"
-          />
-        </div>
+        {heroSlides.map((slide, index) => (
+          <div key={index}>
+            <img
+              src={slide.img}
+              alt={slide.alt}
+              loading="eager" // first screen content, better for SEO & LCP
+              fetchpriority="high"
+            />
+          </div>
+        ))}
       </Carousel>
 
       <div className={styles.content}>

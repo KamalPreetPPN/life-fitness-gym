@@ -46,31 +46,37 @@ const list = [
     title: "ABS",
     desc: "Core strengthening and abs-focused workouts.",
     img: "/images/abs.webp",
+    alt: "ABS workout training at Life Fitness Gym Samana Punjab",
   },
   {
     title: "Gym Workouts",
     desc: "Full-body strength and conditioning exercises.",
     img: "/images/gym.webp",
+    alt: "Strength training and gym workouts at Life Fitness Gym Samana",
   },
   {
     title: "Core Training",
     desc: "Workouts to improve balance, stability, and posture.",
     img: "/images/core.webp",
+    alt: "Core training and stability exercises at Life Fitness Gym Samana",
   },
   {
     title: "Cycling",
     desc: "Cardio and endurance training on cycles.",
     img: "/images/spinning.webp",
+    alt: "Indoor cycling and spinning classes at Life Fitness Gym Samana",
   },
   {
     title: "Body Tone",
     desc: "Exercises to tone muscles and enhance physique.",
     img: "/images/bodytone.webp",
+    alt: "Body toning workouts at Life Fitness Gym Samana Punjab",
   },
   {
     title: "Cardio Workout",
     desc: "High-energy workouts to boost stamina and burn calories.",
     img: "/images/cardio.webp",
+    alt: "Cardio workout and stamina training at Life Fitness Gym Samana",
   },
 ];
 
@@ -87,11 +93,10 @@ export default function Services() {
                 <div className={styles.front}>
                   <img
                     src={s.img}
-                    fetchpriority="high"
-                    alt={s.title}
+                    alt={s.alt}
+                    loading="lazy"
                     className={styles.image}
                   />
-                  {/* <h3>{s.title}</h3> */}
                 </div>
                 {/* Back Side */}
                 <div className={styles.back}>
