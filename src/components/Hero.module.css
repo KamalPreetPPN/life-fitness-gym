@@ -4,16 +4,30 @@
   min-height: 480px;
   overflow: hidden;
 }
+
+.heroWrap::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  /* black layer (0.5 = 50% opacity) */
+}
+
 .carousel .slide img {
   height: 60vh;
   object-fit: cover;
 }
+
 /* .heroWrap img{
   filter: blur(3px) brightness(0.5) contrast(1);
 } */
-.content span{
+.content span {
   color: #ff6600;
 }
+
 .content {
   position: absolute;
   inset: 0;
@@ -24,73 +38,89 @@
   top: 200px;
   /* padding: 0 16px; */
 }
+
 .content h1 {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(4rem, 4vw, 3rem);
   font-weight: 900;
   margin: 0;
 }
+
 .content p {
-  margin: 10px 0 100px;
+  margin: 10px 0 80px;
   opacity: 0.9;
 }
+
 .cta {
-  background:  #ff6600;
+  background: #ff6600;
   color: #111827;
   margin-top: 50px;
   padding: 12px 18px;
   border-radius: 999px;
   font-weight: 800;
   text-decoration: none;
-  color: black;        /* default text color (maybe black/green/orange) */
+  color: black;
+  /* default text color (maybe black/green/orange) */
   transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 /* Hover effect */
 .cta:hover {
-  color: white;          /* text white on hover */
+  color: white;
+  /* text white on hover */
 }
 
 @media (max-width: 768px) {
-  .cta{
-    display:none
+  .cta {
+    display: none
   }
+
   .carousel .slide img {
-  height: 50vh;
-  object-fit: cover;
-}
-.heroWrap {
-  position: relative;
-  min-height: 35vh;
-  height: 35vh;
-  overflow: hidden;
-}
-.content {
-  height: 100px;
-  top:100px;
-}
-.content span{
-  color: #ff6600;
-}
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .heroWrap {
+    position: relative;
+    min-height: 35vh;
+    height: 35vh;
+    overflow: hidden;
+  }
+
+  .content {
+    height: 100px;
+    top: 100px;
+  }
+
+  .content span {
+    color: #ff6600;
+  }
+
+  .content h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+  }
 }
 
 
 @media (max-width: 360px) {
-  .cta{
-    display:none
+  .cta {
+    display: none
   }
-  .carousel .slide img {
-  height: 50vh;
-  object-fit: cover;
-}
-.heroWrap {
-  position: relative;
-  min-height: 30vh;
-  height: 30vh;
-  overflow: hidden;
-}
-.content {
-  height: 100px;
-  top:100px;
 
-}
+  .carousel .slide img {
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .heroWrap {
+    position: relative;
+    min-height: 30vh;
+    height: 30vh;
+    overflow: hidden;
+  }
+
+  .content {
+    height: 100px;
+    top: 100px;
+
+  }
 }

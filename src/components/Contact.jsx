@@ -38,10 +38,10 @@ export default function Contact({ whatsappLink }) {
 
         <div className={styles.map}>
           <iframe
-            title="Gym Location"
-            src="https://www.google.com/maps?q=Samana+Punjab&output=embed"
+            title="Life Fitness Gym Location In Samana | Best Gym In Samana"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3144.6427413116053!2d76.19298500783472!3d30.15395297510782!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3911cdd9438a3817%3A0x6382b176ae1d3e2e!2sLife%20Fitness%20Gym!5e1!3m2!1sen!2sin!4v1756983084663!5m2!1sen!2sin"
             fetchpriority="high"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
