@@ -1,6 +1,6 @@
 # Life Fitness Gym (Vite + React)
 
-Single page React site (Vite) for Fitness Life Gym (Samana, Patiala).
+Single page React site (Vite) for Life Fitness Gym (Samana, Patiala).
 
 - Replace images in public/images
 - Run: npm install && npm run dev

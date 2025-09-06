@@ -17,10 +17,10 @@ export default function App() {
   return (
     <div className={styles.wrapper}>
       <Helmet>
-        <title>Fitness Life Gym | Best Gym in Samana</title>
+        <title>Life Fitness Gym | Best Gym in Samana</title>
         <meta
           name="description"
-          content="Fitness Life Gym in Samana. Trainer Sahil Sharma. Cardio, Weight Gain, Weight Loss & Weight Training. Near Fireman Office, Tehsil Road, Samana, Patiala."
+          content="Life Fitness Gym in Samana. Trainer Sahil Sharma. Cardio, Weight Gain, Weight Loss & Weight Training. Near Fireman Office, Tehsil Road, Samana, Patiala."
         />
         <meta
           name="keywords"
