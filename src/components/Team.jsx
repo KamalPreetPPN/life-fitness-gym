@@ -8,12 +8,12 @@ const teamMembers = [
     img: "/images/sahil.webp",
     alt: "Sahil Sharma - Strength & Conditioning Coach at Life Fitness Gym Samana",
   },
-  {
-    name: "Mohit Bhatia",
-    role: "Functional & Cardio Trainer",
-    img: "/images/mohit.webp",
-    alt: "Mohit Bhatia - Functional & Cardio Trainer at Life Fitness Gym Samana",
-  },
+  // {
+  //   name: "Mohit Bhatia",
+  //   role: "Functional & Cardio Trainer",
+  //   img: "/images/mohit.webp",
+  //   alt: "Mohit Bhatia - Functional & Cardio Trainer at Life Fitness Gym Samana",
+  // },
   {
     name: "Rocky Verma",
     role: "Mobility, Flexibility & Recovery Specialist",
