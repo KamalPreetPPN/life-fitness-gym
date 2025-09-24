@@ -14,7 +14,7 @@ export default function Footer() {
 
         <div className={styles.socialLinks}>
           <a
-            href="https://facebook.com/yourpage"
+            href="https://www.facebook.com/profile.php?id=61580296325466"
             target="_blank"
             aria-label="Facebook"
             rel="noopener noreferrer"
@@ -22,7 +22,7 @@ export default function Footer() {
             <FaFacebook />
           </a>
           <a
-            href="https://www.instagram.com/sahil_fitness8186/"
+            href="https://www.instagram.com/lifefitnessgymsamana/"
             target="_blank"
             aria-label="Instagram"
             rel="noopener noreferrer"
