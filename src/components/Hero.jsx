@@ -35,7 +35,6 @@ export default function Hero({ whatsappLink }) {
               src={slide.img}
               alt={slide.alt}
               loading="eager" // first screen content, better for SEO & LCP
-              fetchpriority="high"
             />
           </div>
         ))}

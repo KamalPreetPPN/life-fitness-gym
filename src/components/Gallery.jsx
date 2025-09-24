@@ -57,7 +57,6 @@ function Gallery() {
             <img
               key={index}
               src={img.src}
-              fetchpriority="high"
               alt={img.alt}
               className={styles.galleryThumb}
               onClick={() => openModal(index)}
@@ -84,7 +83,6 @@ function Gallery() {
           <img
             src={images[currentIndex].src}
             alt={images[currentIndex].alt}
-            fetchpriority="high"
             className={styles.modalImg}
             onClick={(e) => e.stopPropagation()}
           />

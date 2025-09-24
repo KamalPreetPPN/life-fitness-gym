@@ -1,0 +1,91 @@
+.blogsContainer {
+  padding: 10px 40px 40px 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 45px;
+  color:#ff6600;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  /* border: 1px solid #ff6600; */
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardImg {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 15px;
+}
+.cardContent h2 {
+  font-size: 1.1rem;
+  color: #111;
+  margin-bottom: 8px;
+}
+.cardContent p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalContent {
+  background: #fff;
+  max-width: 600px;
+  width: 90%;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.modalImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px; right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
