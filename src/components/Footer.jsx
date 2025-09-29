@@ -30,7 +30,7 @@ export default function Footer() {
             <FaInstagram />
           </a>
           <a
-            href="https://twitter.com/yourpage"
+            href="https://x.com/lifefitnessgym7"
             target="_blank"
             aria-label="Twitter"
             rel="noopener noreferrer"
@@ -38,7 +38,7 @@ export default function Footer() {
             <FaTwitter />
           </a>
           <a
-            href="https://youtube.com/yourpage"
+            href="https://www.youtube.com/@lifefitnessgymsamana"
             target="_blank"
             aria-label="Youtube"
             rel="noopener noreferrer"
