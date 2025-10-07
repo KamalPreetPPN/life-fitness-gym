@@ -72,6 +72,18 @@ export default function Navbar({ whatsappLink }) {
                 Blogs
               </RouterLink>
 
+              <RouterLink
+                to="/calculator"
+                smooth={true}
+                offset={-80}
+                duration={500}
+                spy={true}
+                activeClass={styles.active}
+                className={styles.link}
+              >
+                BmiCalculator
+              </RouterLink>
+
               <Link
                 to="contact"
                 smooth={true}

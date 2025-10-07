@@ -14,6 +14,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import HomePage from "./components/HomePage.jsx";
 import { Routes, Route } from "react-router-dom";
 import Blogs from "./components/Blogs.jsx";
+import BmiCalculator from "./components/BmiCalculator.jsx";
 export default function App() {
   const whatsapp = "https://wa.me/919056138008";
   return (
@@ -21,6 +22,7 @@ export default function App() {
       <Navbar whatsappLink={whatsapp} />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/calculator" element={<BmiCalculator />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
