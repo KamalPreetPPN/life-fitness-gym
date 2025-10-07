@@ -20,3 +20,88 @@
   color: #ff6600; 
   border: white solid;/* hover te text white ho jaye */
 }
+
+
+
+/* Floating BMI Button */
+.bmiFloat {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background-color:  #ff6600;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 22px; */
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  transition: transform 0.2s ease-in-out;
+}
+
+.bmiFloat:hover {
+  transform: scale(1.1);
+}
+
+/* Modal Overlay */
+.bmiModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  backdrop-filter: blur(4px);
+}
+
+/* Modal Box */
+.bmiModalContent {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  animation: fadeInUp 0.4s ease;
+}
+
+/* Close Button */
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background:  #ff6600;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Smooth fade animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
